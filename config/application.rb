@@ -28,7 +28,8 @@ module TodoApi
     # config.i18n.default_locale = :de
     #
     config.action_dispatch.default_headers = {
-        'Access-Control-Allow-Origin' => "http://127.0.0.1:9000"
+        'Access-Control-Allow-Origin' => "http://127.0.0.1:9000",
+        'Access-Control-Allow-Headers' => 'Content-Type'
     }
 
   end
